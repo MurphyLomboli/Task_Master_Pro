@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Master Pro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Task Master Pro</h1>
+            <form id="new-task-form">
+                <div class="input-group">
+                    <input type="text" id="new-task-input" class="form-control" placeholder="What do you have planned?"/>
+                    <input type="datetime-local" id="new-task-datetime" class="form-control" />
+                    <button type="submit" id="new-task-submit" class="btn btn-primary">Add task</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="task-list">
+                <h2>Tasks</h2>
+                <div id="tasks">
+                    <!-- Task items will be dynamically added here -->
+                </div>
+            </section>
+        </div>
+    </main>
+    <section class="popular-websites">
+        <div class="container">
+            <h2>Explore Popular Scheduling Websites</h2>
+            <div class="website-images">
+                <a href="https://trello.com" target="https://trello.com">
+                    <img src="images/trello.jpg" alt="Trello">
+                </a>
+                <h4>Trello</h4>
+                <a href="https://asana.com/" target="https://asana.com/">
+                    <img src="images/trello.jpg" alt="Asana">
+                </a>
+                <h4>Asana</h4>
+            </div>
+            <div class="website-images">
+                <a href="https://todoist.com/" target="https://todoist.com/">
+                    <img src="images/trello.jpg" alt="Todoist">
+                </a>
+                <h4>Todoist</h4>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <h2>About Task Master Pro</h2>
+            <p>Welcome to Task Master Pro designed by Murphy Lomboli as part of the ALX Specialization Portfolio Project, your go-to task management application! We are dedicated to helping you stay organized and productive. With our user-friendly interface and powerful features, managing your tasks has never been easier.</p>
+            <p>Key Features:</p>
+            <ul>
+                <li>Effortless task creation</li>
+                <li>Intuitive task editing and deletion</li>
+                <li>Automatic task reminders</li>
+                <li>Seamless integration with your daily routine</li>
+            </ul>
+            <p>Task Master Pro is not just an application; it's a productivity companion designed to make your life easier. Stay focused, stay organized, and conquer your tasks with Task Master Pro!</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
